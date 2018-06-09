@@ -66,7 +66,7 @@
 
     function requestError(e, part) {
         console.log(e);
-        responseContainer.insertAdjacentHTML('beforeend', `<p class="network-warning">${part}</p>`);
+        responseContainer.insertAdjacentHTML('beforeend', `<p class="network-warning">Oh no! There was an error making a request for the ${part}.</p>`);
     }
 
 })();
